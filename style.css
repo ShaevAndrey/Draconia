@@ -1,0 +1,383 @@
+@font-face {
+	font-family: 'Montserrat'; 
+	src: url("fonts/Montserrat-Black.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    position: relative;
+    color: black;
+    
+
+}
+
+body p{
+    margin: 0;
+}
+.flex_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_collumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    width: 1326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    align-items: flex-end;
+    
+}
+
+.logo {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items:flex-end;
+}
+
+ul {
+    margin-bottom: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    width: 928px;
+
+}
+
+li {
+    width: 20%;
+    padding: 10px 30px;
+    text-align: center;
+    border-start-start-radius: 20px;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+.content {
+    height: 1840px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(249, 249, 249, 0.71);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.info {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_text {
+    width: 50%;
+}
+
+.group_lessons {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 111px;
+}
+
+.group_lessons span{
+
+
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: center;
+
+margin-top: 20px;
+background: #DEDEDE;
+border-radius: 33px;
+padding: 20px 40px;
+}
+
+.info_text h1{
+width: 481px;
+height: 120px;
+margin-left: 111px;
+margin-top: 84px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 60px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.info_text h3{
+
+
+width: 510px;
+height: 105px;
+margin-left: 111px;
+margin-top: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+#demo {
+
+position: absolute;
+width: 587.88px;
+height: 330.3px;
+left: 707.89px;
+top: 147.51px;
+
+border-radius: 20px;
+
+}
+
+#eggs {
+position: absolute;
+width: 546px;
+height: 211px;
+left: 735.61px;
+top: 396px;
+
+}
+
+.courses{
+    width: 900px;
+}
+
+.courses h2{
+    margin-top: 130px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.card{
+    margin-top: 50px;
+    height: 280px;
+    width: 266px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px 0px rgba(174, 174, 192, 0.5);
+
+
+
+
+}
+
+.card img{
+    height: 193px;
+    width: 265px;
+    border-radius: 8px 8px 0px 0px;
+    object-fit: cover;
+
+    
+}
+
+#course_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    margin-left: 10px;
+}
+
+#course_duration{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+.request_button {
+    margin-top: 30px;
+    width: 151px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #82C9F8;
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+footer .group_lessons {
+    width: 60%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+/* ================================================================= */
+/* Background */
+/* ================================================================= */
+
+#bottom_image{
+    position: absolute;
+    width: 100%;
+    height: 577px;
+    left: 0;
+    top: 1539px;
+    z-index: -1;
+}
+
+#pter_image{
+    position: absolute;
+    width: 496px;
+    height: 371px;
+    left: 982px;
+    top: 1611px;
+}
+
+#stone_image_1{
+    position: absolute;
+    width: 215px;
+    height: 206px;
+    left: -16px;
+    top: 1405px;
+    z-index: -1;
+}
+#stone_image_2{
+    position: absolute;
+    width: 406px;
+    height: 305px;
+    left: 1163px;
+    top: 1429px;
+    z-index: -1;
+}
+#stone_image_3{
+    z-index: -1;
+    position: absolute;
+    width: 239px;
+    height: 198px;
+    left: 1147px;
+    top: 995px;
+}
+#stone_image_4{
+    z-index: -1;
+    position: absolute;
+    width: 140.06px;
+    height: 135px;
+    left: 1261.8px;
+    top: 435.21px;
+}
+
+
+/* ================================================================= */
+/* Модальное окно */
+/* ================================================================= */
+
+#modal{
+    position: fixed;
+    z-index: 1050;
+    background-color: rgba(50, 50, 50, 0.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal_content{
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.modal_header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(64, 184, 231);
+    width: 100%;
+    height: 50px;
+}
+
+.modal_form input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: rgb(64, 184, 231);
+    margin-bottom: 20px;
+}
+#modal_ok, #modal_cancel{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#modal_ok{
+    background-color: rgb(64, 184, 231);
+}
+
+#modal_cancel{
+    background-color: rgb(227, 42, 42);
+}
+
+.hide{
+    display:none;
+}
